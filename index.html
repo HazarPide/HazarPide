@@ -26,17 +26,17 @@
       font-size: 14px;
     }
     .container {
-      max-width: 600px;
+      max-width: 650px;
       margin: 0 auto;
       padding: 15px;
     }
     .category {
-      margin-top: 25px;
+      margin-top: 30px;
     }
     .category h2 {
       border-bottom: 2px solid #8b0000;
-      padding-bottom: 5px;
-      font-size: 20px;
+      padding-bottom: 6px;
+      font-size: 21px;
     }
     .item {
       display: flex;
@@ -47,9 +47,10 @@
     }
     .price {
       font-weight: bold;
+      white-space: nowrap;
     }
     footer {
-      margin-top: 30px;
+      margin-top: 35px;
       padding: 15px;
       text-align: center;
       font-size: 13px;
@@ -61,45 +62,79 @@
 
 <header>
   <h1>Hazar Pide</h1>
-  <p>Geleneksel Lezzetler</p>
+  <p>QR Menü</p>
 </header>
 
 <div class="container">
 
   <div class="category">
+    <h2>Döner</h2>
+    <div class="item"><span>100 gr Tavuk Döner</span><span class="price">170 TL</span></div>
+    <div class="item"><span>150 gr Tavuk Döner</span><span class="price">255 TL</span></div>
+    <div class="item"><span>Az Pilav Üstü 100 gr Tavuk Döner</span><span class="price">230 TL</span></div>
+    <div class="item"><span>Tam Pilav Üstü 100 gr Tavuk Döner</span><span class="price">250 TL</span></div>
+  </div>
+
+  <div class="category">
+    <h2>Çorbalar</h2>
+    <div class="item"><span>Kelle Paça</span><span class="price">150 TL</span></div>
+    <div class="item"><span>Az Kelle Paça</span><span class="price">120 TL</span></div>
+    <div class="item"><span>Mercimek / Ezogelin</span><span class="price">100 TL</span></div>
+    <div class="item"><span>Az Mercimek / Ezogelin</span><span class="price">70 TL</span></div>
+  </div>
+
+  <div class="category">
     <h2>Pideler</h2>
-    <div class="item"><span>Kıymalı Pide</span><span class="price">160 ₺</span></div>
-    <div class="item"><span>Kuşbaşılı Pide</span><span class="price">180 ₺</span></div>
-    <div class="item"><span>Kaşarlı Pide</span><span class="price">150 ₺</span></div>
-    <div class="item"><span>Sucuklu Kaşarlı Pide</span><span class="price">170 ₺</span></div>
-    <div class="item"><span>Karışık Pide</span><span class="price">190 ₺</span></div>
+    <div class="item"><span>Peynirli</span><span class="price">300 TL</span></div>
+    <div class="item"><span>Kıymalı</span><span class="price">300 TL</span></div>
+    <div class="item"><span>Açık Kıymalı</span><span class="price">340 TL</span></div>
+    <div class="item"><span>Peynirli Sucuklu</span><span class="price">340 TL</span></div>
+    <div class="item"><span>Karışık</span><span class="price">350 TL</span></div>
+    <div class="item"><span>Kavurmalı</span><span class="price">350 TL</span></div>
+    <div class="item"><span>Kuşbaşılı</span><span class="price">350 TL</span></div>
+    <div class="item"><span>Ekstra Yumurta</span><span class="price">20 TL</span></div>
+    <div class="item"><span>Ekstra Peynir</span><span class="price">30 TL</span></div>
   </div>
 
   <div class="category">
-    <h2>Lahmacun</h2>
-    <div class="item"><span>Lahmacun</span><span class="price">60 ₺</span></div>
-    <div class="item"><span>Acılı Lahmacun</span><span class="price">65 ₺</span></div>
+    <h2>Tatlılar</h2>
+    <div class="item"><span>Sütlaç</span><span class="price">120 TL</span></div>
+    <div class="item"><span>Kadayıf</span><span class="price">100 TL</span></div>
   </div>
 
   <div class="category">
-    <h2>Izgaralar</h2>
-    <div class="item"><span>Adana Kebap</span><span class="price">220 ₺</span></div>
-    <div class="item"><span>Urfa Kebap</span><span class="price">210 ₺</span></div>
-    <div class="item"><span>Tavuk Şiş</span><span class="price">190 ₺</span></div>
+    <h2>Yemekler</h2>
+    <div class="item"><span>Karışık</span><span class="price">280 TL</span></div>
+    <div class="item"><span>Az Karışık</span><span class="price">190 TL</span></div>
+    <div class="item"><span>Kavurma</span><span class="price">350 TL</span></div>
+    <div class="item"><span>Az Kavurma</span><span class="price">240 TL</span></div>
+    <div class="item"><span>Arnavut Ciğeri</span><span class="price">210 TL</span></div>
+    <div class="item"><span>Az Arnavut Ciğeri</span><span class="price">250 TL</span></div>
+    <div class="item"><span>Kuru Fasulye</span><span class="price">180 TL</span></div>
+    <div class="item"><span>Az Kuru Fasulye</span><span class="price">150 TL</span></div>
+    <div class="item"><span>Tavuklu (Sebzeli / Kıymalı / Baklalı)</span><span class="price">250 TL</span></div>
+    <div class="item"><span>Az Tavuklu (Sebzeli / Kıymalı / Baklalı)</span><span class="price">180 TL</span></div>
+    <div class="item"><span>Etli Yemek</span><span class="price">280 TL</span></div>
+    <div class="item"><span>Az Etli Yemek</span><span class="price">190 TL</span></div>
+    <div class="item"><span>Kavurmalı Karışık Yemek</span><span class="price">300 TL</span></div>
+    <div class="item"><span>Az Kavurmalı Karışık Yemek</span><span class="price">230 TL</span></div>
+    <div class="item"><span>Pilav</span><span class="price">80 TL</span></div>
+    <div class="item"><span>Az Pilav</span><span class="price">60 TL</span></div>
   </div>
 
   <div class="category">
     <h2>İçecekler</h2>
-    <div class="item"><span>Ayran</span><span class="price">25 ₺</span></div>
-    <div class="item"><span>Kola / Fanta / Sprite</span><span class="price">40 ₺</span></div>
-    <div class="item"><span>Şalgam</span><span class="price">35 ₺</span></div>
+    <div class="item"><span>Kutu İçecekler</span><span class="price">60 TL</span></div>
+    <div class="item"><span>Şişe İçecekler</span><span class="price">50 TL</span></div>
+    <div class="item"><span>Ayran</span><span class="price">30 TL</span></div>
+    <div class="item"><span>Soda</span><span class="price">25 TL</span></div>
+    <div class="item"><span>Su</span><span class="price">10 TL</span></div>
   </div>
 
 </div>
 
 <footer>
   <p>Hazar Pide © 2025</p>
-  <p>QR Menü Deneme Sürümü</p>
 </footer>
 
 </body>
